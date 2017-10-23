@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5280AACDB4B75B253A609272 /* libPods-EasyRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C52400CF4D10D18A79917A5 /* libPods-EasyRTC.a */; };
+		635382061F8F5BC40077744E /* VideoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635382051F8F5BC30077744E /* VideoChatViewController.m */; };
+		6353820A1F9040E10077744E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635382091F9040E10077744E /* LoginViewController.m */; };
+		6353820D1F90530F0077744E /* EasyNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353820C1F90530F0077744E /* EasyNetworkManager.m */; };
+		635382121F906A5C0077744E /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 635382111F906A5C0077744E /* UIView+Toast.m */; };
+		635852E81F8E050F0017CA97 /* WebRTC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 635852E61F8E04310017CA97 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		635852E91F8E08520017CA97 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635852E61F8E04310017CA97 /* WebRTC.framework */; };
+		635852EC1F8E09A40017CA97 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635852EB1F8E09A40017CA97 /* FriendListViewController.m */; };
+		635852F41F8E0B160017CA97 /* FriendListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 635852F31F8E0B160017CA97 /* FriendListCell.m */; };
+		635852F61F8E0B210017CA97 /* FriendListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 635852F51F8E0B210017CA97 /* FriendListCell.xib */; };
 		63AB36961F8C789F00C825CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AB36951F8C789F00C825CC /* AppDelegate.m */; };
 		63AB36991F8C789F00C825CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AB36981F8C789F00C825CC /* ViewController.m */; };
 		63AB369C1F8C789F00C825CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB369A1F8C789F00C825CC /* Main.storyboard */; };
 		63AB369E1F8C789F00C825CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AB369D1F8C789F00C825CC /* Assets.xcassets */; };
 		63AB36A11F8C789F00C825CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB369F1F8C789F00C825CC /* LaunchScreen.storyboard */; };
 		63AB36A41F8C789F00C825CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AB36A31F8C789F00C825CC /* main.m */; };
+		63AB36AF1F8CA53C00C825CC /* EasyRTCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AB36AE1F8CA53C00C825CC /* EasyRTCManager.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		635852E71F8E04FA0017CA97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				635852E81F8E050F0017CA97 /* WebRTC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2C52400CF4D10D18A79917A5 /* libPods-EasyRTC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyRTC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635382041F8F5BC30077744E /* VideoChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoChatViewController.h; sourceTree = "<group>"; };
+		635382051F8F5BC30077744E /* VideoChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoChatViewController.m; sourceTree = "<group>"; };
+		635382081F9040E10077744E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		635382091F9040E10077744E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6353820B1F90530F0077744E /* EasyNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyNetworkManager.h; sourceTree = "<group>"; };
+		6353820C1F90530F0077744E /* EasyNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNetworkManager.m; sourceTree = "<group>"; };
+		635382101F906A5C0077744E /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		635382111F906A5C0077744E /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		635852E61F8E04310017CA97 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		635852EA1F8E09A40017CA97 /* FriendListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		635852EB1F8E09A40017CA97 /* FriendListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		635852F21F8E0B160017CA97 /* FriendListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendListCell.h; sourceTree = "<group>"; };
+		635852F31F8E0B160017CA97 /* FriendListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendListCell.m; sourceTree = "<group>"; };
+		635852F51F8E0B210017CA97 /* FriendListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListCell.xib; sourceTree = "<group>"; };
+		635852F71F8E13BB0017CA97 /* grandma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grandma.png; sourceTree = "<group>"; };
 		63AB36911F8C789F00C825CC /* EasyRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB36941F8C789F00C825CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63AB36951F8C789F00C825CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +66,10 @@
 		63AB36A01F8C789F00C825CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63AB36A21F8C789F00C825CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63AB36A31F8C789F00C825CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63AB36AD1F8CA53C00C825CC /* EasyRTCManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyRTCManager.h; sourceTree = "<group>"; };
+		63AB36AE1F8CA53C00C825CC /* EasyRTCManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyRTCManager.m; sourceTree = "<group>"; };
+		678234500FE845820798F590 /* Pods-EasyRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRTC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRTC/Pods-EasyRTC.release.xcconfig"; sourceTree = "<group>"; };
+		99A1B28428C7603044A2D368 /* Pods-EasyRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRTC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRTC/Pods-EasyRTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +77,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635852E91F8E08520017CA97 /* WebRTC.framework in Frameworks */,
+				5280AACDB4B75B253A609272 /* libPods-EasyRTC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6353820F1F906A140077744E /* features */ = {
+			isa = PBXGroup;
+			children = (
+				635382101F906A5C0077744E /* UIView+Toast.h */,
+				635382111F906A5C0077744E /* UIView+Toast.m */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		635852ED1F8E0ABC0017CA97 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				635852F11F8E0AEB0017CA97 /* xibs */,
+				635852F21F8E0B160017CA97 /* FriendListCell.h */,
+				635852F31F8E0B160017CA97 /* FriendListCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		635852F11F8E0AEB0017CA97 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				635852F51F8E0B210017CA97 /* FriendListCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
 		63AB36881F8C789F00C825CC = {
 			isa = PBXGroup;
 			children = (
 				63AB36931F8C789F00C825CC /* EasyRTC */,
 				63AB36921F8C789F00C825CC /* Products */,
+				9DE2602F66DD0B457AD69E7A /* Pods */,
+				AE07A64F7AD126112E23E62A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +135,70 @@
 			children = (
 				63AB36941F8C789F00C825CC /* AppDelegate.h */,
 				63AB36951F8C789F00C825CC /* AppDelegate.m */,
-				63AB36971F8C789F00C825CC /* ViewController.h */,
-				63AB36981F8C789F00C825CC /* ViewController.m */,
-				63AB369A1F8C789F00C825CC /* Main.storyboard */,
-				63AB369D1F8C789F00C825CC /* Assets.xcassets */,
-				63AB369F1F8C789F00C825CC /* LaunchScreen.storyboard */,
-				63AB36A21F8C789F00C825CC /* Info.plist */,
 				63AB36A31F8C789F00C825CC /* main.m */,
+				6353820F1F906A140077744E /* features */,
+				63AB36AC1F8CA29F00C825CC /* basis */,
+				63AB36AA1F8CA22700C825CC /* ViewControllers */,
+				635852ED1F8E0ABC0017CA97 /* view */,
+				63AB36AB1F8CA23900C825CC /* others */,
 			);
 			path = EasyRTC;
+			sourceTree = "<group>";
+		};
+		63AB36AA1F8CA22700C825CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63AB36971F8C789F00C825CC /* ViewController.h */,
+				63AB36981F8C789F00C825CC /* ViewController.m */,
+				635852EA1F8E09A40017CA97 /* FriendListViewController.h */,
+				635852EB1F8E09A40017CA97 /* FriendListViewController.m */,
+				635382041F8F5BC30077744E /* VideoChatViewController.h */,
+				635382051F8F5BC30077744E /* VideoChatViewController.m */,
+				635382081F9040E10077744E /* LoginViewController.h */,
+				635382091F9040E10077744E /* LoginViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		63AB36AB1F8CA23900C825CC /* others */ = {
+			isa = PBXGroup;
+			children = (
+				63AB369A1F8C789F00C825CC /* Main.storyboard */,
+				63AB369D1F8C789F00C825CC /* Assets.xcassets */,
+				635852F71F8E13BB0017CA97 /* grandma.png */,
+				63AB369F1F8C789F00C825CC /* LaunchScreen.storyboard */,
+				63AB36A21F8C789F00C825CC /* Info.plist */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		63AB36AC1F8CA29F00C825CC /* basis */ = {
+			isa = PBXGroup;
+			children = (
+				63AB36AD1F8CA53C00C825CC /* EasyRTCManager.h */,
+				63AB36AE1F8CA53C00C825CC /* EasyRTCManager.m */,
+				6353820B1F90530F0077744E /* EasyNetworkManager.h */,
+				6353820C1F90530F0077744E /* EasyNetworkManager.m */,
+			);
+			path = basis;
+			sourceTree = "<group>";
+		};
+		9DE2602F66DD0B457AD69E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99A1B28428C7603044A2D368 /* Pods-EasyRTC.debug.xcconfig */,
+				678234500FE845820798F590 /* Pods-EasyRTC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE07A64F7AD126112E23E62A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635852E61F8E04310017CA97 /* WebRTC.framework */,
+				2C52400CF4D10D18A79917A5 /* libPods-EasyRTC.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +208,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63AB36A71F8C789F00C825CC /* Build configuration list for PBXNativeTarget "EasyRTC" */;
 			buildPhases = (
+				B75D4CA6C28FA17A44923FF4 /* [CP] Check Pods Manifest.lock */,
 				63AB368D1F8C789F00C825CC /* Sources */,
 				63AB368E1F8C789F00C825CC /* Frameworks */,
 				63AB368F1F8C789F00C825CC /* Resources */,
+				C94A53AA2120906CFFFA9906 /* [CP] Embed Pods Frameworks */,
+				FAFC15694BE75D55D0577680 /* [CP] Copy Pods Resources */,
+				635852E71F8E04FA0017CA97 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -130,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AB36A11F8C789F00C825CC /* LaunchScreen.storyboard in Resources */,
+				635852F61F8E0B210017CA97 /* FriendListCell.xib in Resources */,
 				63AB369E1F8C789F00C825CC /* Assets.xcassets in Resources */,
 				63AB369C1F8C789F00C825CC /* Main.storyboard in Resources */,
 			);
@@ -137,14 +272,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B75D4CA6C28FA17A44923FF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRTC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94A53AA2120906CFFFA9906 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRTC/Pods-EasyRTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFC15694BE75D55D0577680 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRTC/Pods-EasyRTC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63AB368D1F8C789F00C825CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6353820D1F90530F0077744E /* EasyNetworkManager.m in Sources */,
+				6353820A1F9040E10077744E /* LoginViewController.m in Sources */,
 				63AB36991F8C789F00C825CC /* ViewController.m in Sources */,
+				63AB36AF1F8CA53C00C825CC /* EasyRTCManager.m in Sources */,
 				63AB36A41F8C789F00C825CC /* main.m in Sources */,
+				635382061F8F5BC40077744E /* VideoChatViewController.m in Sources */,
+				635852EC1F8E09A40017CA97 /* FriendListViewController.m in Sources */,
 				63AB36961F8C789F00C825CC /* AppDelegate.m in Sources */,
+				635382121F906A5C0077744E /* UIView+Toast.m in Sources */,
+				635852F41F8E0B160017CA97 /* FriendListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +469,18 @@
 		};
 		63AB36A81F8C789F00C825CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A1B28428C7603044A2D368 /* Pods-EasyRTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyRTC/Info.plist;
+				DEVELOPMENT_TEAM = P3687VH7NJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EasyRTC/others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LYL.EasyRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +490,18 @@
 		};
 		63AB36A91F8C789F00C825CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678234500FE845820798F590 /* Pods-EasyRTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyRTC/Info.plist;
+				DEVELOPMENT_TEAM = P3687VH7NJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EasyRTC/others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LYL.EasyRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";

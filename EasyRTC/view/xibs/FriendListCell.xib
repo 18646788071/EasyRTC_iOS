@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FriendListCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AnL-HS-Hsq">
+                    <rect key="frame" x="16" y="10" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="UzI-d9-aHU"/>
+                        <constraint firstAttribute="width" constant="60" id="gkJ-Jo-sgm"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3J-LG-95F">
+                    <rect key="frame" x="121" y="10" width="209" height="60"/>
+                    <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="B3J-LG-95F" secondAttribute="trailing" constant="45" id="51M-O4-NE3"/>
+                <constraint firstItem="B3J-LG-95F" firstAttribute="leading" secondItem="AnL-HS-Hsq" secondAttribute="trailing" constant="45" id="6A8-mh-3MT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="AnL-HS-Hsq" secondAttribute="bottom" constant="10" id="Mf8-GW-YT7"/>
+                <constraint firstItem="AnL-HS-Hsq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="OLc-MJ-rb6"/>
+                <constraint firstItem="B3J-LG-95F" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="TTF-14-3bQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="B3J-LG-95F" secondAttribute="bottom" constant="10" id="kaq-Gz-9nX"/>
+                <constraint firstItem="AnL-HS-Hsq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="rex-Lv-doj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="UserIcon" destination="AnL-HS-Hsq" id="UV3-s1-XCx"/>
+                <outlet property="UserName" destination="B3J-LG-95F" id="J8n-Uc-Ebs"/>
+            </connections>
+            <point key="canvasLocation" x="-294.5" y="-192"/>
+        </view>
+    </objects>
+</document>
